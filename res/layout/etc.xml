@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rfid"
+    android:orientation="vertical"
+    android:gravity="center" >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:text="@string/etc_ctr"/>
+    <RadioGroup 
+        android:id="@+id/etc_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        
+        <RadioButton 
+            android:id="@+id/etc_positive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="@string/etc_forwprd"/>
+        <RadioButton 
+            android:id="@+id/etc_reserve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/etc_back"/>
+    </RadioGroup>
+
+</LinearLayout>

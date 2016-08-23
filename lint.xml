@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ButtonStyle">
+        <ignore path="res/layout/ultrarfid.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/ultrarfid.xml" />
+    </issue>
+    <issue id="InefficientWeight">
+        <ignore path="res/layout/ultrarfid.xml" />
+    </issue>
+    <issue id="TextFields">
+        <ignore path="res/layout/ultrarfid.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res/layout/ultrarfid.xml" />
+    </issue>
+</lint>

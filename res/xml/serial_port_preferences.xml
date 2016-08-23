@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#EEEEEE"
+    android:title="设置" >
+
+    <ListPreference
+        android:key="DEVICE"
+        android:persistent="true"
+        android:title="Device" >
+    </ListPreference>
+    <ListPreference
+        android:entries="@array/baudrates_name"
+        android:entryValues="@array/baudrates_value"
+        android:key="BAUDRATE"
+        android:persistent="true"
+        android:title="Baud rate" >
+    </ListPreference>
+    <ListPreference
+        android:entries="@array/systemid_name"
+        android:entryValues="@array/systemid_value"
+        android:key="SYSTEMID"
+        android:persistent="true"
+        android:title="SystemId" />
+</PreferenceScreen>
