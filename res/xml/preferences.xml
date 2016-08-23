@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:title="Serial port setup">
+<EditTextPreference 
+    android:key="WebAddress"   
+    android:title="WebAddress" 
+    android:persistent="true" 
+    android:defaultValue="http://192.168.75.49:8007/CloudService.asmx"></EditTextPreference>
+  
+<ListPreference
+        android:entries="@array/systemid_name"
+        android:entryValues="@array/systemid_value"
+        android:key="SYSTEMID"
+        android:persistent="true"
+        android:title="SystemId" />
+
+<EditTextPreference 
+    android:key="IPAddress"   
+    android:title="IPAddress" 
+    android:persistent="true" 
+    android:defaultValue="192.168.79.123"></EditTextPreference>
+<EditTextPreference 
+    android:key="Port"   
+    android:title="Port" 
+    android:persistent="true" 
+    android:defaultValue="8080"></EditTextPreference>
+</PreferenceScreen>

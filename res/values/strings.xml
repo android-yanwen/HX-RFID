@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AgricultureClient</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_topo">Topo</string>
+    <string name="action_histoty">History</string>
+    <string name="action_cam">Camera</string>
+    <string name="action_con">Control</string>
+    <string name="action_gps">GPS</string>
+    <string name="renti">人体</string>
+    <string name="yanwu">烟雾</string>
+    <string name="wenshidu">温湿度</string>
+    <string name="guangzhao">光照</string>
+    <string name="title">标题</string>
+    <string name="logo">标志</string>
+    <string name="tubiao">图标</string>
+    <string name="tv_connect_cam">正在连接摄像头……</string>
+    <string name="tv_connect_cam_error">无法连接，请确认摄像头是否开启。</string>
+    <string name="zhuatu">抓图</string>
+    <string name="ip">IP: </string>
+    <string name="port">端口: </string>
+    <string name="username">用户名: </string>
+    <string name="password">密码: </string>
+    <string name="channel">通道号: </string>
+    <string name="ok">确 定</string>
+    <string name="cancel">取 消</string>
+</resources>
